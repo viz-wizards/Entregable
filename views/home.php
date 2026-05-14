@@ -1,6 +1,6 @@
 <?php
 require_once __DIR__ . '/../model/Producto.php';
-require_once __DIR__ . '/helpers.php';
+require_once __DIR__ . '/../helpers/helpers.php';
 
 $productos = [];
 
@@ -52,7 +52,7 @@ try {
     <meta name="description" content="Sistema web tienda de tecnología">
 
     <link rel="icon" href="../imagenes/icono.ico">
-    <link rel="stylesheet" href="../assets/css/style_home.css">
+    <link rel="stylesheet" href="../assetes/css/style_home.css">
 
     <title>Tienda Tecnología</title>
 </head>
@@ -64,7 +64,7 @@ try {
     <section class="lineaSupe">
 
         <a class="logo" href="home.php">
-            <img src="../imagenes/logo1.png" alt="logo">
+            <img src="../imagenes/logo.png" alt="logo">
             <h2>Tech Store</h2>
         </a>
 

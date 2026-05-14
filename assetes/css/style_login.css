@@ -1,0 +1,152 @@
+/* =========================
+   LOGIN TECH STORE
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #141e30, #243b55);
+}
+
+/* Caja login */
+.caja {
+    width: 380px;
+    background: #fff;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+/* Logo */
+.caja img {
+    width: 90px;
+    margin-bottom: 10px;
+}
+
+/* Título */
+.caja h1 {
+    font-size: 22px;
+    color: #1e2a38;
+    margin-bottom: 5px;
+}
+
+/* Texto */
+.caja p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Labels */
+.caja label {
+    display: block;
+    text-align: left;
+    font-size: 13px;
+    margin: 8px 0 5px;
+    color: #333;
+}
+
+/* Inputs */
+.caja input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.caja input:focus {
+    border-color: #00b4db;
+    box-shadow: 0 0 5px rgba(0,180,219,0.5);
+}
+
+/* Links */
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.links a {
+    color: #00aaff;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+/* Checkbox */
+.chkMostrar {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+}
+
+/* Botones */
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+button {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Login */
+#btnPrimary {
+    background: #00b4db;
+    color: white;
+}
+
+#btnPrimary:hover {
+    background: #0093b0;
+}
+
+/* Reset */
+#btnSecondary {
+    background: #ddd;
+    color: #333;
+}
+
+#btnSecondary:hover {
+    background: #bbb;
+}
+
+/* Error */
+.alerta-login {
+    background: #ffe0e0;
+    color: #b30000;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+/* Demo */
+.demo {
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #777;
+}
