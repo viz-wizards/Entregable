@@ -47,7 +47,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
         <form action="validar_login.php" method="post" id="frmLogin">
 
             <!-- LOGO -->
-            <img src="../imagenes/logo.png" alt="logo institucional">
+            <img src="../imagenes/Logo.png" alt="logo institucional">
 
             <h1>Acceso al sistema</h1>
             <p>Ingrese sus credenciales</p>
